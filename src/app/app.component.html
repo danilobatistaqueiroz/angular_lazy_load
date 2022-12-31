@@ -4,6 +4,9 @@
       <ion-content>
         <ion-list id="inbox-list">
           <ion-list-header>Inbox</ion-list-header>
+          <button type="button" routerLink="/customers">Customers</button>
+          <br/>
+          <button type="button" routerLink="/users">Users</button>
           <ion-note>hi@ionicframework.com</ion-note>
 
           <ion-menu-toggle auto-hide="false" *ngFor="let p of appPages; let i = index">
